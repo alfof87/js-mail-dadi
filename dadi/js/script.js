@@ -1,3 +1,4 @@
+///////////////////////////////////////////////////////DADI
 // var dado1 = Math.floor(Math.random()*6);
 // var dado2 = Math.floor(Math.random()*6);
 // var num =[1, 2, 3, 4, 5, 6];
@@ -8,6 +9,7 @@
 document.getElementById('btn');
 
 document.getElementById('btn').addEventListener("click", function(){
+  
   var dado1 = Math.floor(Math.random()*6 + 1);
   var dado2 = Math.floor(Math.random()*6 + 1);
   var vittoria;
